@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Confettify!",
+  "version": "0.1",
+  "description": "Display confetti in Chrome.",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Confettify!"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon-128.png"
+  }
+}
